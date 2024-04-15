@@ -206,5 +206,14 @@ h2 {
     cursor: pointer;
 }
 
+/* Footer styling */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
 
 
