@@ -42,3 +42,36 @@ nav{
     justify-content: center;
     flex:0 1 750px;
 }
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 80px;
+    display: flex;
+    color: white;
+}
+
+.website-info{
+    flex:0 1 380px;
+}
+
+.image1{
+    flex:1 1 500px;
+    margin-left: 30px;
+}
+
+.section1 h1{
+    font-size: 48px;
+}
+
+button{
+    background-color: #3882f6;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
