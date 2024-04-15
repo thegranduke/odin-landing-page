@@ -67,7 +67,7 @@ nav{
     font-size: 48px;
 }
 
-button{
+.button1{
     background-color: #3882f6;
     font-weight: bold;
     font-size: 16px;
@@ -152,6 +152,58 @@ h2 {
     justify-content: flex-end;
     width: 75%;
     
+}
+
+/* Section 4 styling */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: white;
+}
+
+.section4 > div{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px;
+    height: 90px;
+    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+ 
+
+.call-to-action{
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+.call-to-action-text{
+    color: white;
+    margin: 0px;
+
+}
+
+.button2{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 4px 20px;
+    cursor: pointer;
 }
 
 
