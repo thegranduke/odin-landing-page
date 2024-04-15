@@ -90,8 +90,10 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 20px;
-    padding: 80px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
     background-color: #f3f4f6;
 }
 
@@ -118,6 +120,38 @@ h2 {
     width: 150px;
     height: 150px;
     border-radius: 12px;
+}
+
+/* Section 3 styling */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    background-color:#e5e7eb;
+}
+
+.quote {
+    display: flex;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+    width: 75%;
+    height: auto;
+    margin: 0px;
+}
+
+.author {
+    display:flex;
+    font-size: 12px;
+    font-weight: 900;
+    color: #1f2937;
+    justify-content: flex-end;
+    width: 75%;
+    
 }
 
 
