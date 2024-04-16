@@ -6,7 +6,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: lightgray;
 
 }
 
@@ -14,7 +14,7 @@ ul {
     list-style-type:none;
     padding-left: 16px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 
@@ -23,12 +23,12 @@ ul {
 header{
     display: flex;
     background-color: #1f2937;
-    color: white;
     font-weight: bold;
     align-items: center; 
 }
 
 header > h3{
+    color: white;
     padding-left: 80px;
     margin-right: auto;
     font-size: 20px;
@@ -59,8 +59,19 @@ nav{
 }
 
 .image1{
-    flex:1 1 500px;
+    display: flex;
+    max-width: 600px;
+    max-height: 500px;
+    flex:0 1 500px;
     margin-left: 30px;
+    justify-content: center;
+}
+
+.image1 img{
+    display: flex;
+    width: 700px;
+    height: 80%;
+    border-radius: 12px;
 }
 
 .section1 h1{
